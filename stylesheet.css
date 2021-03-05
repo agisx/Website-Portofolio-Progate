@@ -35,6 +35,11 @@ body{
     background-color: #e6f5f7ef; 
     opacity: 0.5;
 }
+
+.form{
+
+}
+
 .container-content .nama{ 
     font-size: 1em;
     color: rgb(8, 8, 8); 
@@ -48,10 +53,15 @@ body{
     display: block;
     margin: auto;
 }
-.container-content p{
+.container-content p.content{
     font-size: 1em;
     color: rgb(8, 8, 8); 
     text-align: center; 
+}
+ 
+.submit{
+    margin-top: 30px;
+    width: 10%;
 }
  
 .title-content-sosmed-list{
