@@ -1,0 +1,95 @@
+*{font-family: sans-serif;}
+li{list-style: none;}
+a{text-decoration: none;}
+body{
+    margin: 0px;
+    padding: 0px;  
+    background-image: url("images/Mac-Book.jpg");
+} 
+
+/* header */
+.container-header{  
+    display: flex;
+    justify-content: center;
+}
+
+.header-list{   
+    padding:1%;
+    size: 1em;
+}
+
+.header-list a{  
+    font-size: 1em;
+    margin: 0.3em;
+    color: #ffffffef;   
+}
+
+.header-list a:hover{ 
+    color: #ffffffd0;   
+}
+
+/* content */
+.container-content{
+    height: 100%;
+    padding: 3rem 100px; 
+    background-color: #e6f5f7ef; 
+    opacity: 0.5;
+}
+.container-content .nama{ 
+    font-size: 1em;
+    color: rgb(8, 8, 8); 
+    text-align: center; 
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+.container-content .icon{ 
+    padding-bottom: 50px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+.container-content p{
+    font-size: 1em;
+    color: rgb(8, 8, 8); 
+    text-align: center; 
+}
+ 
+.title-content-sosmed-list{
+    padding-top: 2em;
+    font-size: 1em;
+    color: rgb(8, 8, 8); 
+    text-align: center;  
+}
+.content-sosmed-list{ 
+    display: flex;
+    justify-content: center;
+}
+.content-sosmed{ 
+    width: auto;
+    border: 1px rgb(8, 8, 8) solid; 
+    border-radius: 60px;
+    margin: 0% 1em;
+    padding:1%;
+}
+.content-sosmed a:hover{  
+    color:  #2e2e2ee7 ; 
+}
+
+.content-sosmed a{
+    padding:1em;
+    font-size: 100%;
+    color: rgb(8, 8, 8); 
+    text-align: center;  
+}
+
+.container-footer{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;  
+    opacity: 0.3;
+}
+
+.container-footer a{
+    color: #ffffffef;
+}
